@@ -10,8 +10,8 @@ class Email extends BaseConfig
     public string $fromName   = 'Your Name';
     public string $protocol   = 'smtp';
     public string $SMTPHost   = 'smtp.gmail.com';
-    public string $SMTPUser   = 'ullulazmia.l@gmail.com';
-    public string $SMTPPass   = 'ktnv dcjr bsgc uqbu';
+    public string $SMTPUser   = 'youremail@gmail.com';
+    public string $SMTPPass   = 'your password';
     public int    $SMTPPort   = 587;
     public int    $SMTPTimeout = 5;
     public bool   $SMTPKeepAlive = false;
