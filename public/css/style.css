@@ -1,0 +1,33 @@
+/* Mengimpor jenis huruf yang lebih ramah dari Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap");
+
+/* Mendefinisikan variabel warna tema kita */
+:root {
+  --bs-primary-rgb: 40, 167, 69; /* Warna hijau khas Puskesmas */
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-font-sans-serif: "Nunito", sans-serif;
+}
+
+/* Mengubah warna dasar tombol primary */
+.btn-primary {
+  --bs-btn-bg: #28a745;
+  --bs-btn-border-color: #28a745;
+  --bs-btn-hover-bg: #218838;
+  --bs-btn-hover-border-color: #1e7e34;
+}
+
+/* Mengubah warna dasar navbar publik */
+.navbar.bg-success {
+  background-color: #28a745 !important;
+}
+
+/* Memberi sedikit sentuhan pada kartu/card */
+.card {
+  border: 0;
+  border-top: 4px solid #28a745;
+}
+
+/* Mengubah warna link aktif di sidebar admin & pasien */
+.sidebar .nav-link.active {
+  color: #28a745 !important;
+}
